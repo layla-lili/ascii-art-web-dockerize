@@ -64,5 +64,4 @@ The application includes the following error pages:
 ```bash
 docker build -t asciiweb . 
 docker run -p 8081:8081 asciiweb
-sudo service docker start .
 ```
