@@ -1,6 +1,11 @@
 # Use the official Golang base image
 FROM golang:1.20 
 
+# Metadata labels
+LABEL authors="Fatima, Layla and Modhawi"
+LABEL version="1.20"
+LABEL description="This is docker image of Ascii Art Web"
+
 # Set the working directory inside the container
 WORKDIR /app
 

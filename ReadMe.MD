@@ -61,7 +61,9 @@ The application includes the following error pages:
 * **500.html:** This page is shown when the server encounters an internal error during the execution of the application. It notifies the user about the error and may include a small hangman game 🎮😆 to keep the user engaged while the issue is being resolved.
 
 ## Docker 
+run ```./dockerrun.sh``` in the terminal to run the bash file of docker 
+
 ```bash
 docker build -t asciiweb . 
-docker run -p 8081:8081 asciiweb
+docker run -d -p 8081:8081 asciiweb
 ```
